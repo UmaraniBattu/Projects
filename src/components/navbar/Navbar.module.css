@@ -1,0 +1,37 @@
+.Navcontainer {
+  display: flex;
+  justify-content: center;
+}
+.Navcontainer li {
+  list-style-type: none;
+  padding: 25px;
+}
+.Navcontainer li a {
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.activenavbar {
+  border-bottom: 2px solid red;
+
+  font-weight: bold;
+}
+
+.mainnavcontainer {
+  display: flex;
+  justify-content: center;
+}
+.mainnavcontainer li {
+  list-style-type: none;
+  padding: 25px;
+}
+.mainnavcontainer li a {
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.activenavbar {
+  border-bottom: 2px solid red;
+
+  font-weight: bold;
+}

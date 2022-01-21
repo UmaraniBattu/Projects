@@ -1,0 +1,38 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+html {
+  min-height: 100%;
+  min-width: 100%;
+}
+body {
+  background-color: rgb(197, 116, 235);
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 100px;
+}
+.heading {
+  color: black;
+}
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 2px solid black;
+  margin-left: 50px;
+}
+.picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+.username {
+  color: orangered;
+  margin-left: -500px;
+}
+.uservalues {
+  color: aliceblue;
+}
