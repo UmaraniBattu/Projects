@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Header.module.css";
-// import { Img } from "./Uma.jpeg";
+import User from "../Images/profile_pic.jpg";
 
 const Header = () => {
   const id = new Date().getTime().toString();
@@ -12,11 +12,7 @@ const Header = () => {
       </div>
       <div className={classes.container}>
         <div className={classes.img}>
-          <img
-            src={"profile_pic.jpg"}
-            alt="User Picture"
-            className={classes.picture}
-          />
+          <img src={User} alt="User Picture" className={classes.picture} />
         </div>
         <div className={classes.username}>
           <h2>Umarani</h2>
