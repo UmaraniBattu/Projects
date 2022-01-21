@@ -12,9 +12,10 @@ function App() {
       <div className="App">
         <Header />
         <MainnavRoute />
+        <h3>Waiting for text to change</h3>
         {/* <Navbar /> */}
       </div>
-      //{" "}
+      //
     </BrowserRouter>
   );
 }
